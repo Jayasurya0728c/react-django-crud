@@ -1,0 +1,158 @@
+/* Simple Black and White Layout */
+
+.container {
+  max-width: 960px;
+  margin: 30px auto;
+  padding: 0 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 22px;
+  color: #000;
+}
+
+.error-box {
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #000;
+  background: #fdf2f2;
+  color: #b91c1c;
+  font-size: 14px;
+}
+
+/* Form */
+.product-form {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-row:last-child {
+  margin-bottom: 0;
+}
+
+.product-form input {
+  padding: 8px 10px;
+  border: 1px solid #000;
+  font-size: 14px;
+  flex: 1;
+  background: #fff;
+  color: #000;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.product-form .input-desc {
+  flex: 2;
+}
+
+.product-form input:focus {
+  outline: 2px solid #000;
+}
+
+.btn {
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background: #333;
+}
+
+.btn-cancel {
+  background: #fff;
+  color: #000;
+}
+
+.btn-cancel:hover {
+  background: #eee;
+}
+
+/* Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  font-size: 14px;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #000;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.product-table tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.actions-cell {
+  white-space: nowrap;
+  width: 175px;
+}
+
+.btn-small {
+  padding: 4px 8px;
+  margin-right: 6px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 0;
+}
+
+.btn-small:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* View Details Box (simple beginner on-page section) */
+.view-details-box {
+  margin-top: 24px;
+  padding: 16px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.view-details-box h3 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  color: #000;
+}
+
+.view-details-box p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #000;
+}
+
+.view-details-box button {
+  margin-top: 12px;
+}
+
+
