@@ -5,7 +5,11 @@ SECRET_KEY = 'django-insecure--raoy6vp#ow2dr)@$r4vm2xr($1ld#&qa)^adxo%g2_bgvcfgn
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "react-django-crud-em09.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 # Application definition
 
