@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api/products/';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api/products/`;
 
 const initialFormState = {
   name: '',
